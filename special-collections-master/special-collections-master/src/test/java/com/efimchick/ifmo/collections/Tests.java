@@ -22,7 +22,6 @@ import static org.junit.Assert.assertTrue;
 
 public class Tests {
 
-
     @Test
     public void testPairStringList() {
         List<String> list = new PairStringList();
@@ -77,7 +76,6 @@ public class Tests {
 
     }
 
-
     @Test
     public void testSortedByAbsoluteValueIntegerSet() {
         Set<Integer> set = new SortedByAbsoluteValueIntegerSet();
@@ -98,8 +96,6 @@ public class Tests {
         assertEquals(8, set.size());
         assertEquals("1 -4 5 -6 7 -8 9 -10", toString(set));
         assertFalse(set.contains(3));
-
-
     }
 
     @Test
