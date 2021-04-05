@@ -1,6 +1,5 @@
 package com.efimchick.ifmo.collections.countwords;
 
-
 import org.junit.Test;
 
 import java.io.IOException;
@@ -109,5 +108,4 @@ public class WordsExerciseTest {
             throw new IllegalStateException(e);
         }
     }
-
 }
